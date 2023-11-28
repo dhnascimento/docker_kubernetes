@@ -1,4 +1,4 @@
-FROM node:17
+FROM node:14
 
 WORKDIR /app
 
@@ -10,6 +10,4 @@ COPY . /app
 
 EXPOSE 80
 
-VOLUME [ "/app/feedback" ]
-
-CMD [ "node", "server.js" ]
+CMD [ "npm", "start" ]
