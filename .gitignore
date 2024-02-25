@@ -2,3 +2,4 @@
 *.pdf
 .env
 *.env
+*.pem
